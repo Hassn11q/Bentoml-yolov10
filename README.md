@@ -1,10 +1,9 @@
 <div align="center">
     <h1 align="center">Serving YOLO with BentoML</h1>
 </div>
-
 YOLO (You Only Look Once) is a series of popular convolutional neural network (CNN) models used for object detection tasks.
 
-This is a BentoML example project, demonstrating how to build an object detection inference API server, using the [YOLOv10 model]. See [here](https://github.com/bentoml/BentoML/tree/main/examples) for a full list of BentoML example projects.
+This is a BentoML example project, demonstrating how to build an object detection inference API server using the YOLOv10 model.
 
 ## Prerequisites
 
@@ -15,8 +14,8 @@ This is a BentoML example project, demonstrating how to build an object detectio
 ## Install dependencies
 
 ```bash
-git clone https://github.com/bentoml/BentoYolo.git
-cd BentoYolo
+git clone https://github.com/hassn11q/Bentoml-yolov10.git
+cd Bentoml-yolov10
 pip install -r requirements.txt
 ```
 
