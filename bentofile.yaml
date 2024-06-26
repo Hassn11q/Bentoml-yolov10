@@ -1,0 +1,15 @@
+service: "service:YoloV10"
+labels:
+  owner: bentoml-team
+  stage: demo
+include:
+ - "*.py"
+ - "*.pt"
+python:
+  requirements_txt: "./requirements.txt"
+docker:
+  system_packages:
+    - libglib2.0-0
+    - libsm6
+    - libxext6
+    - libxrender1
